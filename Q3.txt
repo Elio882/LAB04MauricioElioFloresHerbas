@@ -1,0 +1,8 @@
+para instalar con yarn es:
+yarn add paquete
+
+para remover es:
+yarn remove paquete o dependencia
+
+¿Hay algún equivalente en yarn que haga lo mismo que npm init?
+yarn init
