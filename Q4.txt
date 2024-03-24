@@ -1,0 +1,17 @@
+¿Cómo elimino una rama creada en git? Crea una nueva rama llamada feature/QA, para posteriormente borrarla.
+
+git branch -d nombre de la rama
+—¿Por qué debería de usar la ramificación en proyectos?
+Trabajo paralelo: Las ramificaciones permiten que múltiples desarrolladores trabajen en diferentes características o correcciones de errores simultáneamente sin interferir entre sí. Cada desarrollador puede tener su propia rama donde puede realizar cambios sin afectar el trabajo de los demás.
+
+Experimentación y desarrollo seguro: Las ramificaciones proporcionan un entorno seguro para experimentar y probar nuevas características o cambios sin afectar la rama principal del proyecto (también conocida como master o main). Los cambios pueden ser probados y revisados en la rama antes de fusionarlos en la rama principal.
+
+Mantenimiento de versiones: Las ramificaciones facilitan el mantenimiento de múltiples versiones de un proyecto. Por ejemplo, puedes tener una rama para la versión actual en producción, otra para la próxima versión y otra para correcciones de errores en la versión anterior. Esto permite gestionar mejor las versiones del software y aplicar correcciones específicas a cada versión si es necesario.
+
+Revertir cambios y corregir errores: Si algo sale mal en una rama, es más fácil revertir los cambios y volver a un estado anterior sin afectar otras partes del proyecto. Esto proporciona una forma segura de corregir errores y mantener la estabilidad del proyecto.
+
+Colaboración y revisión de código: Las ramificaciones facilitan la colaboración entre equipos de desarrollo y la revisión de código. Los desarrolladores pueden crear ramas para características específicas o tareas, y luego solicitar revisiones de código antes de fusionar los cambios en la rama principal. Esto ayuda a garantizar la calidad del código y facilita la colaboración entre miembros del equipo.
+
+—Usted recibió un ticket [SEM-005] y una vez terminado el trabajo usted decide crear una rama para un posterior PR. ¿Qué nombre pondría a la rama al momento de crearla?
+
+git checkout feature/SEM-005
